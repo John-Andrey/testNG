@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="21" started-at="2024-09-23T15:16:45 CEST" finished-at="2024-09-23T15:16:45 CEST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="21" started-at="2024-09-23T15:16:45 CEST" finished-at="2024-09-23T15:16:45 CEST">
+      <class name="org.example.FirstTestCase">
+        <test-method status="PASS" signature="setup()[pri:1, instance:org.example.FirstTestCase@6536e911]" name="setup" duration-ms="3" started-at="2024-09-23T15:16:45 CEST" finished-at="2024-09-23T15:16:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:2, instance:org.example.FirstTestCase@6536e911]" name="login" duration-ms="0" started-at="2024-09-23T15:16:45 CEST" finished-at="2024-09-23T15:16:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:3, instance:org.example.FirstTestCase@6536e911]" name="teardown" duration-ms="0" started-at="2024-09-23T15:16:45 CEST" finished-at="2024-09-23T15:16:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.example.FirstTestCase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
