@@ -17,7 +17,8 @@ public class PriorityExample {
     void testThree(){
         System.out.println("This is test three");
     }
-    @Test(priority = 3)
+    //with enabled false will not be displayed
+    @Test(priority = 3, enabled = false)
     void testFour(){
         System.out.println("This is test four");
     }
