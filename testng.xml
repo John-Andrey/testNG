@@ -23,4 +23,16 @@
             </class>
         </classes>
     </test>
+    <test name="groupingtest">
+        <groups>
+            <run>
+                <!-- Nome dei gruppi , sanity & regression-->
+                <include name="sanity"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.GroupingExampleTest"/>
+        </classes>
+    </test>
 </suite>
