@@ -5,6 +5,7 @@ import org.testng.SkipException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+//possiamo integrare anche qui Customer Listener oppure in testNG.xml
 @Listeners(org.example.listeners.CustomerListener.class)
 public class ListenerTest {
     @Test
