@@ -2,8 +2,10 @@ package org.example.listeners;
 
 import org.testng.Assert;
 import org.testng.SkipException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(org.example.listeners.CustomerListener.class)
 public class ListenerTest {
     @Test
     void test1(){
